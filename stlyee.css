@@ -1,0 +1,166 @@
+body{
+    background-image: linear-gradient(#000000 90%,hsl(240, 2%, 17%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-size:cover;
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    scroll-behavior: smooth;
+    color: aliceblue;
+}
+header{
+    font-size: 250px;
+    color: aliceblue;
+    background-color: #000000;
+    font-family: garamond;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    padding: 50px;
+    position: relative;
+    animation: text 4s 1;
+}
+.parai{
+    margin: 0px;
+    margin-bottom: 50px;
+}
+@keyframes text {
+    0%{
+        color: #000000;
+        margin-bottom: -300px;
+    }
+    35%{
+        letter-spacing: 10px;
+        margin-bottom: -300px;
+    }
+    70%{
+        letter-spacing: 10px;
+        margin-bottom: -300px;
+    }
+}
+.navbar {
+    align-content: center;
+    margin-bottom: 500px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 2%, 10%);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+
+}
+.navbar a:hover{
+    background-color: #4f4d4d;
+    font-size: 55px;
+}
+.navbar li{
+    float: left;
+    font-size: 50px;
+    margin-left:160px;
+}
+.navbarup a{
+    text-decoration: none;
+}
+.navbarup ul{
+    list-style: none;
+    background-color: hsl(0, 0%, 0%);
+    margin: 0px;
+    padding: 0px;
+}
+.navbarup{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #000000;
+    text-decoration: none;
+    border-color: aliceblue;
+    margin-bottom: 450px;
+}
+.navbarup li{
+    font-size: 30px;
+}
+.navbarup li:hover{
+    background-color: #4f4d4d;
+    font-size: 35px;
+}
+p{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#sectioni{
+    color: aliceblue;
+}
+#sectionii{
+    color: aliceblue;
+}
+.para{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#intro{
+    font-size: 100px;
+}
+.profile{
+    border: 10px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 70px;
+    width: 400px;
+    height: 600px; 
+}
+.pics{
+    width: 150px;
+    height: 150px; 
+    float: left;
+}
+.name{
+    font-size: 25px;
+}
+.status{
+    font-size: 15px;
+    float: left;
+    
+}
+.info{
+    text-align: left;
+    margin-top: 20px;
+}
+.description{
+    text-align: left;
+    margin-top: 30px;
+}
+.paragraph{
+    text-align:left;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#sectionii{
+    display: flex;
+    margin-top: 20px;
+}
+#titleaboutus{
+    font-size:100px;
+    color: aliceblue;
+}
+#contactinfo{
+    color: aliceblue;
+    font-size: 25px;
+    border: 1px solid;
+}
+.icons{
+    text-align: center;
+    text-spacing-trim: 1000px;
+}
+.icons a{
+    text-decoration: none;
+    margin: 15px;
+}   
